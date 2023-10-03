@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:rgb(22, 22, 31);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .maindiv{
+    display: flex;
+    justify-content:space-between;
+  }
+  .head{
+    display: grid;
+    top: 0;
+  }
+  .image{
+    display: inline;
+  }
+  .container1{
+    place-self:center;
+    margin: 0.5rem;
+    padding: 0.5rem; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color:rgb(90, 211, 239);
+    color: white ;
+    border-radius: 1rem;
+  }
+  .button1{
+    place-self:center;
+    margin-top: 1.5rem;
+    background-color:rgb(90, 211, 239);
+    color:rgb(22, 22, 31);
+    border:0;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .button2{
+    place-self:center;
+    margin-top: 1.5rem;
+    background-color:rgb(90, 211, 239);
+    color:rgb(22, 22, 31);
+    border:0;
+    padding: 1rem;
+    margin-left: 2.5rem;
+    border-radius: 1rem;
+  }
+  .button3{
+    place-self:center;
+    background-color:rgb(90, 211, 239);
+    color:rgb(22, 22, 31);
+    border:0;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    border-radius: 1rem;
+  }
+  .button4{
+    place-self:center;
+    margin-top: 1.5rem;
+    background-color:rgb(90, 211, 239);
+    color:rgb(22, 22, 31);
+    border:0;
+    padding: 1rem;
+    margin-left: 2.5rem;
+    border-radius: 1rem;
+  }
+  .login{
+    background-color: rgb(22,22,31);
+    color:white;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content: center;
+    display:flex;
+    text-align:center;
+    margin-right: 3rem;
+  }
+
+  .container2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  a:visited {
+    color:whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color:lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  .icons i{
+    margin-right: 1rem;
+  }
+  .part1{
+    padding: 13rem;
+    padding-right: 50rem;
+    display: block;
+    width: fit-content;
+    border:10px solid gray;
+    border-radius: 1rem;
+    color: aliceblue;
+    background-color: rgb(22,22,31);
+    opacity: 0.5;
+    text-align: center;
+  }
+  .part2{
+    display: flex;
+    padding-right: 8.25rem;
+    padding-left: 8.25rem;
+    align-items: flex-end;
+    border:10px solid gray;
+    border-radius: 1rem;
+    color: aliceblue;
+    background-color: rgb(22,22,31);
+    justify-content: center;
+  }
+.secondarydiv{
+  display: flex;
+  justify-content:space-between;
+}
